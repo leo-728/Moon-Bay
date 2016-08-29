@@ -68,35 +68,35 @@
 /*轮播图定位文本内容*/
 
 .slide_text{
-	width: 400px;
 	position: absolute;
 	top: 50px;
 	left: 15%;
+	width: 400px;
 	color: #bfaf77;
 }
 /*首页底部*/
 .footer{
+	top:417px;
 	height: 100px;
 	background-color: rgba(0,0,0,.4);
-	top:417px;
 }
 .slide{
 	height: 0;
 }
 .slide_stock{
-	width: 55%;
 	position: absolute;
 	bottom:0;
-	right:0;	
+	right:0;
+	width: 55%;	
 	
 }
 .slide_stock a{
 	position: relative;
 	width:25%;
+	padding-left:5%;
 	margin-right:10px;
 	font:bold 20px "微软雅黑";
 	color: #979595;
-	padding-left:5%;
 }
 
 .slide_stock span{	
@@ -125,28 +125,28 @@
 	margin-top: 0;
 }
 .estate:hover b{
-	display: inline-block;
 	position: absolute;
 	top:-69px;
 	left: 0;
+	display: inline-block;
 }
 .estate:hover a{
 	display: none;
 }
 .comm:hover b{
-	display: inline-block;
 	position: absolute;
 	top:-69px;
 	left: 0;
+	display: inline-block;
 }
 .comm:hover a{
 	display: none;
 }
 .service:hover b{
-	display: inline-block;
 	position: absolute;
 	top:-69px;
 	left: 0;
+	display: inline-block;
 }
 .service:hover a{
 	display: none;
@@ -159,9 +159,9 @@
 }
 .copyright li{
 	float: left;
+	margin-right: 10px;
 	line-height: 20px;
 	color: #bfaf77;	
-	margin-right: 10px;
 }
 
 .copyright a:visited{

@@ -34,8 +34,8 @@
 	background: url(../img/place-icon.png) center top no-repeat;
 }
 .detail_text input{
-	border: none;
 	margin-top: 20px;
+	border: none;
 }
 .detail_text .text{
     width: 198px;
@@ -98,9 +98,9 @@
 	float: left;
 }
 .city li a{
+	margin-right: 15px;
 	font-size: 16px;
 	color: #565051;
-	margin-right: 15px;
 	line-height: 40px;	
 }
 .avil{
