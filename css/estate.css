@@ -1,0 +1,116 @@
+/*地产开发，内容*/
+.houses select{
+	width: 130px;
+    height: 55px;
+    color: #fff;
+    background-color: rgba(205,205,205,.2);
+    border: none;
+}
+.houses option{
+	background-color: #fff;
+	color: #666;
+	font-size: 15px;
+}
+.houses{
+	position: absolute;
+	top: 7%;
+	right: 0;
+	width: 350px;
+	background: #fb9000;
+}
+.houses h2{
+    color: #fff;
+}
+
+.note h3{
+	background: url(../img/house-icon.png) center top no-repeat;
+}
+.note h1{
+	color: #ffae00;
+	background: url(../img/phone-icon.png) center top no-repeat;
+}
+.note p{
+	color: #26264B;
+	background: url(../img/place-icon.png) center top no-repeat;
+}
+.detail_text input{
+	border: none;
+	margin-top: 20px;
+}
+.detail_text .text{
+    width: 198px;
+    height: 50px;
+    background: #f4f4f4;	
+}
+.detail_text .button{
+	width: 67px;
+    height: 50px;
+    margin-left: -6px;
+	background: url(../img/houses_cion.jpg);
+	vertical-align: top;
+}
+.detail_text a:visited{
+	color: #333;
+}
+.location{
+	width:288px;
+	height: 80px;
+	margin-left: -20px;
+    text-align: center;
+	background-color: rgba(250,113,0,.8);
+}
+.location a{
+	line-height: 130px;
+	padding-top: 65px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+	background: url(../img/location-icon.png) center no-repeat;
+}
+.hot{
+	text-align: center;
+}
+.hot h1{
+	color: #fb7f00;
+}
+.note h2{
+    color: #26264b;
+}
+.list_box li{
+	float: left;
+	margin-right: 5px;
+	background: #efeff4;
+}
+.note a:visited{
+	color:#26264B ;
+}
+/*内容底部，地区与在售楼盘*/
+.map{
+	background: #ede5d9;
+}
+.map_text P{
+	color: #565051;
+}
+.map_text span{
+	color: #fb9000;
+}
+.map_text li{
+	float: left;
+}
+.city li a{
+	font-size: 16px;
+	color: #565051;
+	margin-right: 15px;
+	line-height: 40px;	
+}
+.avil{
+	display: inline-block;
+}
+.avil li{
+	line-height: 30px;
+}
+.avil li a{
+	color: #999;
+	margin-left: 10px;
+	
+}

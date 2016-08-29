@@ -1,0 +1,59 @@
+.about{
+	width: 60%;
+	color: #fff;
+	background: #847e9a;
+}
+.about p{
+	color: #d2cfda;
+	margin: 30px 0 25px 50px;
+}
+.brand{
+	width: 40%;
+	padding-bottom: 27px;
+	background: #cecadd;
+	text-align: center;
+	
+}
+.brand p{
+	margin: 0 20px;
+	color: #68617C;
+}
+
+.cooperate{
+	
+	background: #efeff4;
+}
+.left{
+	width: 340px;
+}
+.left h1{
+	color: #333;
+}
+.left h1 span{
+	color: #666;
+}
+.left h2{
+	color: #FB9000;
+}
+.left h3{
+	color: #4b4949;
+}
+.left p span{
+	color: #49a04f;
+	font-size: 38px;
+	line-height: 38px;
+	padding-left: 38px;
+	background: url(../img/icon-tel3.png) no-repeat left;
+}
+.right{
+	width: 830px;
+}
+.right li{
+	float: left;
+	width: 160px;
+	height: 100px;
+	background: #d4d4d4;
+	margin: 0 5px 5px 0;
+	padding-top: 27px;
+	text-align: center;
+}

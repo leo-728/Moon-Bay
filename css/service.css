@@ -1,0 +1,185 @@
+.top{
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+	background: #f0eff4;
+	padding: 0 50px;
+}
+.content{
+	top: 450px;
+}
+.top_content{
+	color: #23252e;
+	background: url(../img/icon-tel1.png) no-repeat left 3px;
+	padding-left: 50px;
+	display: inline-block;
+	margin: 0 25px;
+}
+.top_wechat{
+	position: relative;
+	top: -10px;
+	display: inline-block;
+}
+.top_wechat p{
+	height: 41px;
+	background: url(../img/icon-tel2.png) no-repeat left;
+	padding-left: 50px;
+
+}
+.top_wechat img{
+	display: none;
+}
+.wechat:hover img{
+	position: absolute;
+	top: -120px;
+	left: 30px;
+	display:block;
+	
+}
+.wechat:visited{
+	color: #23252e;
+}
+/*关于月亮湾物业*/
+h1{
+	text-align: center;
+}
+h1.entitle{
+	color: #FB7F00;
+}
+h1.cntitle{
+	color: #26264b;
+}
+.about{
+	width: 60%;
+	color: #fff;
+	background:url(../img/about_bg.jpg)
+}
+.about p{
+	color: #9EDFB5;
+	margin: 30px 20px 25px 50px;
+}
+.brand{
+	width: 40%;
+	background: #47b16c;
+	text-align: center;
+	
+}
+.bselect a{
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 30px;
+}
+.bselect a:hover{
+	background: #fb9000;
+}
+.brand{
+	width: 40%;
+	text-align: center;
+	padding:103px 0;
+	color: #acd6be;
+}
+.brand b{
+	color: #F0EFF4;
+}
+/*物业服务轮播图*/
+.carousel li{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.carousel ul li {
+    opacity: 0;/*透明度为不透明*/
+    filter: alpha(opacity=0);/*透明度为不透明*/
+}
+
+.carousel ul li{
+	-webkit-animation: round 12s linear infinite;/*animation属性：名字，总共应用时间，动画速度，轮播次数，*/
+            animation: round 12s linear infinite;
+	}
+@-webkit-keyframes round {
+    8% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡出*/
+    }
+    32% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 4秒靜止*/
+    }
+    40% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 4-5秒淡入*/
+    }
+/*keyframes只能用百分比表示，@-webkit-表示浏览器内核*/
+}
+@keyframes round {
+    8% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    32% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 4秒靜止*/
+    }
+    40% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 4-5秒淡出*/
+    }
+}
+/*这个目录下的第五个li，下面分别是第四个，第三个，以此类推*/
+
+
+.carousel ul li:nth-child(3) {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+}
+
+.carousel ul li:nth-child(2) {
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+}
+
+.carousel ul li:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+.footer_seed{
+	top: 450px;
+}
+/**/
+.map{
+	background: #ede5d9;
+}
+.map_text P{
+	color: #565051;
+}
+.map_text span{
+	color: #fb9000;
+}
+.map_text li{
+	float: left;
+}
+.city li a{
+	font-size: 16px;
+	color: #565051;
+	margin-right: 15px;
+	line-height: 40px;	
+}
+.avil{
+	display: inline-block;
+}
+.avil li{
+	line-height: 30px;
+}
+.avil li a{
+	color: #999;
+	margin-left: 10px;
+	
+}
