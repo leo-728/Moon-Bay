@@ -17,7 +17,7 @@
 }
 .top_wechat{
 	position: relative;
-	top: -15px;
+	top: -10px;
 	display: inline-block;
 }
 .top_wechat p{
@@ -51,17 +51,20 @@ h1.cntitle{
 }
 .about{
 	width: 60%;
+	height:399px;
 	color: #fff;
 	background:url(../img/about_bg.jpg)
 }
 .about p{
 	color: #9EDFB5;
-	margin: 30px 20px 25px 50px;
+	margin: 20px 20px 20px 50px;
 }
 .brand{
 	width: 40%;
+	height: 399px;
 	background: #47b16c;
 	text-align: center;
+	color: #acd6be;
 	
 }
 .bselect a{
@@ -74,12 +77,7 @@ h1.cntitle{
 .bselect a:hover{
 	background: #fb9000;
 }
-.brand{
-	padding:103px 0;
-	width: 40%;
-	text-align: center;
-	color: #acd6be;
-}
+
 .brand b{
 	color: #F0EFF4;
 }

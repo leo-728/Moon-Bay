@@ -1,15 +1,16 @@
 .about{
 	width: 60%;
+	height: 310px;
 	color: #fff;
 	background: #847e9a;
 }
 .about p{
-	margin: 30px 0 25px 50px;
+	margin: 30px 20px 25px 50px;
 	color: #d2cfda;
 }
 .brand{
-	padding-bottom: 27px;
 	width: 40%;
+	height: 310px;
 	background: #cecadd;
 	text-align: center;
 	
